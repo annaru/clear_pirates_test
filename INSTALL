@@ -1,0 +1,3 @@
+Run `make` command to build a .crx Chrome extension file.
+
+To install it to Chrome - drag and drop .crx file to chrome://extensions/ frame, select `Add` and make Clear Pirates extension Enabled.

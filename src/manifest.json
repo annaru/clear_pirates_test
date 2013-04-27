@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2,
+
+  "name": "Clear Pirates",
+  "description": "Go leave pirates without earnings. You can hide all ads from the pirates websites",
+  "version": "0.1",
+
+  "content_scripts": [
+    {
+      "matches": ["http://seasonvar.ru/*"],
+      "css": ["clear.css"],
+      "js": ["jquery.js",
+      		 "modules/seasonvar.ru.js", 
+      		 "clear.js"]
+    }
+  ],
+  "browser_action": {
+    "default_icon": "icon.png"
+  },
+  "icons": {
+	"128":"icon_128.png"
+  }
+}

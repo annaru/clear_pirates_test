@@ -1,0 +1,67 @@
+body {
+	background: #fff !important;
+	background-image: none !important;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif !important;
+	color: #333 !important;
+}
+
+#logo {
+	background: url('http://cdn.seasonvar.ru/images/top_bg4.jpg') !important;
+	text-align: center !important;
+}
+
+#vpcenter {
+	float: right;
+}
+
+.content-center {
+	background: none !important;
+}
+
+.content-top {
+	padding: 0 !important;
+}
+
+.content-top2 {
+	padding: 0 !important;
+	background: #E7E7E7 !important;
+}
+
+.main-center-block {
+	padding: 0 !important;
+	background: #fff !important;
+	background-image: none !important;
+}
+
+.full-news {
+	padding-top: 0px !important;
+}
+
+.full-news-1 {
+	width: 225px !important;
+	float: left !important;
+}
+
+.film-list-item {
+	height: 25px !important;
+}
+
+.film-list-item a {
+	font-size: 1.2em !important;
+}
+
+a[href='/?mod=abuse'] {
+	font-size: 2em;
+}
+a[href='/?mod=com'] {
+	display: none;
+}
+
+h1.hname {
+	font-size: 1.4em !important;
+	font-weight: bold !important;
+}
+
+.ff1 {
+	font-size: 1.3em !important;
+}
